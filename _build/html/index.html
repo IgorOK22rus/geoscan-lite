@@ -1,0 +1,396 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Сборка и эксплуатация комплекса Геоскан Lite &mdash; документация Geoscan Lite </title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Общие сведения" href="reference.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Содержание:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Общие сведения</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#id2">Комплект поставки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#id3">Технические характеристики</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#id4">Обслуживание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#id6">Хранение</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="precautions.html">Правила безопасности</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="precautions.html#id2">Эксплуатационные ограничения</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="uav.html">БВС</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="uav.html#id2">Узлы и детали</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uav.html#id3">Сборка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uav.html#id4">Парашютная система</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uav.html#id5">Установка парашюта в БВС</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nsu.html">Настройка НСУ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nsu.html#id2">Комплект</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nsu.html#id3">Развертывание</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="catapult.html">Пусковая установка</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="catapult.html#id2">Сборка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="catapult.html#id3">Подготовка пусковой установки к запуску БВС</a></li>
+<li class="toctree-l2"><a class="reference internal" href="catapult.html#id4">Правила обращения с резиновыми жгутами</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="camera.html">Настройка фотокамеры</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="camera.html#sony-a6000">Настройка фотокамеры Sony A6000</a></li>
+<li class="toctree-l2"><a class="reference internal" href="camera.html#sony-a6000-nir">Настройка фотокамеры Sony A6000 NIR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="camera.html#sony-dsc-rx1rm2">Настройка камеры Sony DSC-RX1RM2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="charger.html">Зарядое устройство и АКБ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id2">Техника безопасности</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id3">Предварительные настройки зарядного устройства</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id4">Зарядка АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#lipo">Рекомендации по использованию литий-полимерной (LiPo) АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id5">Проверка исправности АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id6">Хранение и разряд</a></li>
+<li class="toctree-l2"><a class="reference internal" href="charger.html#id7">Утилизация АКБ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="planner.html">Использование Geoscan Planner</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id1">Предварительная настройка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id2">Проектирование полетного задания</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id3">Площадная аэрофотосъемка</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="planner.html#id4">Добавление и удаление вершин полигона</a></li>
+<li class="toctree-l3"><a class="reference internal" href="planner.html#id5">Изменение направления линий облета</a></li>
+<li class="toctree-l3"><a class="reference internal" href="planner.html#id6">Изменение точки входа</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id7">Линейная аэрофотосъемка</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="planner.html#id8">Изменение параметров БВС в точках разворота</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id9">Перелет</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id10">Точка ожидания</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id11">Маршрут посадки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id12">Предстартовая подготовка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planner.html#id13">Полет</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="launch.html">Запуск</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch.html#id2">Порядок разборки БВС</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Geoscan Lite</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Сборка и эксплуатация комплекса Геоскан Lite</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lite">
+<h1>Сборка и эксплуатация комплекса Геоскан Lite<a class="headerlink" href="#lite" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id1">
+<h2>Общие сведения<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<img alt="_images/101.png" class="align-center" src="_images/101.png" />
+<p>Геоскан Lite – компактный беспилотный комплекс для аэрофотосъемки.</p>
+<p><strong>Назначение</strong></p>
+<p>Комплекс Геоскан Lite предназначен для получения геопривязанных фотографий объектов и автоматической площадной аэрофотосъемки.</p>
+<p><strong>Область применения</strong></p>
+<p>Полученные с использованием комплекса материалы могут использоваться для:</p>
+<ul class="simple">
+<li><p>оценки состояния местности;</p></li>
+<li><p>выполнения аэрофотосъемки местности с фиксацией моментов фотографирования для получения геопривязанных фотографий;</p></li>
+<li><p>создания ортофотопланов и цифровых моделей местности по материалам аэрофотосъемки;</p></li>
+<li><p>создания карт высот;</p></li>
+<li><p>создания 3D моделей местности;</p></li>
+<li><p>вычисления объемов пород в карьерах и насыпных объектах.</p></li>
+</ul>
+<div class="section" id="id2">
+<h3>Комплект поставки<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h3>
+<ul>
+<li><p>Беспилотное воздушное судно (БВС) Геоскан Lite</p></li>
+<li><p>Транспортировочная сумка БВС</p></li>
+<li><p>Пусковая установка в транспортировочной сумке</p></li>
+<li><p>Модернизированная фотокамера</p></li>
+<li><p>Аккумуляторная батарея (АКБ) LiPo 14,8 В</p></li>
+<li><p>Модем КРЛ с антенной</p></li>
+<li><p>Зарядное устройство для АКБ</p></li>
+<li><p>ПО для планирования полетного задания Geoscan Planner</p></li>
+<li><p>Раскладная подставка для сборки планера</p></li>
+<li><p>Комплект запасных частей:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>киль - 2 шт;</p></li>
+<li><p>штырь креплекия консолей крыла (460 мм);</p></li>
+<li><p>комплект резиновых жгутов для катапульты;</p></li>
+<li><p>лопасти воздушного винта 10x8;</p></li>
+<li><p>ключ рожковый;</p></li>
+<li><p>шомпол приемника воздушного давления;</p></li>
+<li><p>приемник воздушного давления;</p></li>
+<li><p>силиконовая трубка;</p></li>
+<li><p>нож универсальный.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3>Технические характеристики<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Параметр</p></th>
+<th class="head"><p>Значение</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Тип БВС</p></td>
+<td><p>летающее крыло</p></td>
+</tr>
+<tr class="row-odd"><td><p>Скорость полета (воздушная)</p></td>
+<td><p>64 - 130 км/ч</p></td>
+</tr>
+<tr class="row-even"><td><p>Максимальная взлетная масса</p></td>
+<td><p>3,1 кг</p></td>
+</tr>
+<tr class="row-odd"><td><p>Максимальная масса полезной нагрузки</p></td>
+<td><p>0,8 кг</p></td>
+</tr>
+<tr class="row-even"><td><p>Площадь фотосъемки за один полет</p></td>
+<td><p>до 9 км²</p></td>
+</tr>
+<tr class="row-odd"><td><p>Допустимая скорость ветра</p></td>
+<td><p>до 12 м/с</p></td>
+</tr>
+<tr class="row-even"><td><p>Размах крыла</p></td>
+<td><p>1,38 м</p></td>
+</tr>
+<tr class="row-odd"><td><p>Минимальная безопасная высота полета</p></td>
+<td><p>100 м</p></td>
+</tr>
+<tr class="row-even"><td><p>Максимальная высота полета</p></td>
+<td><p>4000 м</p></td>
+</tr>
+<tr class="row-odd"><td><p>Двигатель</p></td>
+<td><p>электрический, бесколлекторный</p></td>
+</tr>
+<tr class="row-even"><td><p>Аккумуляторная батарея</p></td>
+<td><p>LiPo 14,8 В</p></td>
+</tr>
+<tr class="row-odd"><td><p>Время подготовки к взлету</p></td>
+<td><p>10 мин</p></td>
+</tr>
+<tr class="row-even"><td><p>Продолжительность полета</p></td>
+<td><p>до 60 мин</p></td>
+</tr>
+<tr class="row-odd"><td><p>Максимальная протяженность маршрута</p></td>
+<td><p>70 км</p></td>
+</tr>
+<tr class="row-even"><td><p>Посадка</p></td>
+<td><p>на парашюте, в автоматическом режиме</p></td>
+</tr>
+<tr class="row-odd"><td><p>Рабочий диапазон температур:</p></td>
+<td><p>от -20 до +40°С</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id4">
+<h3>Обслуживание<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<p>После каждого полета осматривайте БВС на предмет повреждений.</p>
+<p>В случае повреждения лопастей винта или килей вы можете заменить их самостоятельно, используя запасные части и инструменты из комплекта.</p>
+<p>При выявлении конструкционных повреждений планера или систем необходимо обратиться в <a class="reference external" href="https://www.geoscan.aero/ru/support">службу технической поддержки</a>.</p>
+<p>После выполнения 80 полетов рекомендуется отправить БВС на завод-изготовитель для проверки и технического обслуживания.</p>
+</div>
+<div class="section" id="id6">
+<h3>Хранение<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Комплекс Геоскан Lite (без аккумуляторных батарей) и пусковую установку рекомендуется хранить в транспортировочных сумках в сухих помещениях при температуре от 5 до 25°С и относительной влажности не более 80%, без конденсации. Срок хранения - 2 года.</p>
+<p>Аккумуляторные батареи хранить в сухом прохладном месте, исключающем воздействие прямых солнечных лучей, при температуре от 5 до 25°С и относительной влажности не более 80% без конденсации. Оптимальный уровень напряжения АКБ при хранении: 15,4 В (подробнее см. <a class="reference internal" href="charger.html"><span class="doc">Зарядое устройство и АКБ</span></a>). Срок хранения — 1 год.</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="reference.html" class="btn btn-neutral float-right" title="Общие сведения" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Geoscan
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
