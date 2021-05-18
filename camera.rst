@@ -273,7 +273,7 @@ ________________
 
 Ниже представлены основные элементы управления камерой, упомянутые в данном подразделе.
 
-.. figure:: _static/_images/RX1RM2_control_2in1.png
+.. figure:: _static/_images/RX1_control_2in1.png
    :width: 1200
    :align: center
 
