@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Geoscan Lite'
-copyright = '2021, Geoscan'
+copyright = 'Geoscan Group'
 author = 'Geoscan'
 
 # The short X.Y version
